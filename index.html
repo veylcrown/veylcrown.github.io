@@ -93,25 +93,33 @@
 #music {padding-top: 5px }
 }
     
+
 .platform-buttons {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
-  margin-top: 24px;
+  margin-top: 25px;
 }
 
-.platform-buttons img {
+.platform-buttons a {
+  display: block;
   width: 175px;
   height: auto;
-  display: block;
-  border-radius: 10px;
-  transition: transform 0.2s ease;
+  border: none;
+  background: none;
 }
 
-.platform-buttons a:hover img {
-  transform: scale(1.05);
+.platform-buttons a img {
+  display: block;
+  width: 175px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 10px;
+  object-fit: contain;
 }
+
 
   </style>
 </head>
@@ -135,19 +143,21 @@
         <p>Combines AI-powered music production with original musical ideas and lyrics. </p>
 
         
+       
 <div class="platform-buttons">
 
   <a href="https://youtube.com/@veylcrown?si=nSOGuXdER8e0xXFC"
      target="_blank" rel="noopener">
-    <img src="YouTube.png" alt="YouTube">
+    <img src="images/YouTube.png" alt="YouTube">
   </a>
 
   <a href="https://on.soundcloud.com/Xyxo2dl5FV0pSGr6yS"
      target="_blank" rel="noopener">
-    <img src="SoundCloud.png" alt="SoundCloud">
+    <img src="images/SoundCloud.png" alt="SoundCloud">
   </a>
 
 </div>
+
 
       </div>
     </div>
