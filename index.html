@@ -87,6 +87,7 @@
     margin-top: -80px;
     margin-bottom: 75px;
 }
+
     
 @media (max-width: 768px) {.hero {min-height: 68vh;
  }
@@ -95,8 +96,27 @@
     
 
 .platform-buttons {
-  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-top: 18px;
 }
+
+.platform-buttons a {
+  display: block;
+  width: 175px;
+  margin: 0;
+  padding: 0;
+}
+
+.platform-buttons img {
+  display: block;
+  width: 175px;
+  height: auto;
+  max-width: 100%;
+}
+
 
   </style>
 </head>
