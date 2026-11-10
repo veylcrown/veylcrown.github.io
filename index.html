@@ -93,6 +93,26 @@
 #music {padding-top: 5px }
 }
     
+.platform-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.platform-buttons img {
+  width: 175px;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.platform-buttons a:hover img {
+  transform: scale(1.05);
+}
+
   </style>
 </head>
 <body>
@@ -113,10 +133,22 @@
         <div class="eyebrow">Gothic Metal</div>
         <h1><span></span></h1>
         <p>Combines AI-powered music production with original musical ideas and lyrics. </p>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://on.soundcloud.com/8dJslg729QSRmFyfan" target="_blank" rel="noopener">▶ Listen on SoundCloud</a>
-          <a class="btn btn-secondary" href="#music">Explore the Music ↓</a>
-        </div>
+
+        
+<div class="platform-buttons">
+
+  <a href="https://youtube.com/@veylcrown?si=nSOGuXdER8e0xXFC"
+     target="_blank" rel="noopener">
+    <img src="youtube.png" alt="YouTube">
+  </a>
+
+  <a href="https://on.soundcloud.com/Xyxo2dl5FV0pSGr6yS"
+     target="_blank" rel="noopener">
+    <img src="soundcloud.png" alt="SoundCloud">
+  </a>
+
+</div>
+
       </div>
     </div>
   </section>
